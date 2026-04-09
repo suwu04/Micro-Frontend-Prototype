@@ -1,0 +1,31 @@
+<div class="registry-container">
+  <h3 class="registry-header">Add New Task</h3>
+  
+  <div class="list-body">
+    <div class="form-group">
+      <label>Task Description</label>
+      <input 
+        [(ngModel)]="taskText" 
+        placeholder="Enter a brief description here!" 
+        class="dark-input" 
+      />
+    </div>
+
+    <div class="form-group">
+      <label>Urgency Level</label>
+      <select [(ngModel)]="urgency" class="dark-select" [ngClass]="urgency">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <button (click)="onSubmit()" class="submit-btn">Record Task</button>
+    </div>
+  </div>
+
+  <div *ngIf="showToast" class="toast-message">
+    Entry has been recorded!
+  </div>
+</div>

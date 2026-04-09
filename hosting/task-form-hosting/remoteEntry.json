@@ -1,0 +1,154 @@
+{
+  "name": "task-form-mfe",
+  "shared": [
+    {
+      "packageName": "@angular/common",
+      "outFileName": "_angular_common.R8YKmTln2W-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/common/http",
+      "outFileName": "_angular_common_http.bigZtc5W9X-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/core",
+      "outFileName": "_angular_core.La1GXZj9na-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/core/primitives/di",
+      "outFileName": "_angular_core_primitives_di.72EbUfRZxM-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/core/primitives/signals",
+      "outFileName": "_angular_core_primitives_signals.G5h7hwdrcH-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/forms",
+      "outFileName": "_angular_forms.H4bFS_2uSj-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/platform-browser",
+      "outFileName": "_angular_platform_browser.JCTh6v6dKs-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "@angular/router",
+      "outFileName": "_angular_router._uGM2q8-Mj-dev.js",
+      "requiredVersion": "^21.1.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "21.2.5"
+    },
+    {
+      "packageName": "rxjs",
+      "outFileName": "rxjs.Drk6vuGZLa-dev.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.2"
+    },
+    {
+      "packageName": "rxjs/operators",
+      "outFileName": "rxjs_operators.vArsxIcRMy-dev.js",
+      "requiredVersion": "~7.8.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "7.8.2"
+    },
+    {
+      "packageName": "tslib",
+      "outFileName": "tslib.KVSYr3wLiW-dev.js",
+      "requiredVersion": "^2.3.0",
+      "singleton": true,
+      "strictVersion": true,
+      "version": "2.8.1"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-IE2S7NZU",
+      "outFileName": "chunk-IE2S7NZU.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-ZBEBK6HB",
+      "outFileName": "chunk-ZBEBK6HB.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-5FPW27D4",
+      "outFileName": "chunk-5FPW27D4.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-ZHS64ZFU",
+      "outFileName": "chunk-ZHS64ZFU.js"
+    },
+    {
+      "singleton": false,
+      "strictVersion": false,
+      "version": "0.0.0",
+      "requiredVersion": "0.0.0",
+      "packageName": "@nf-internal/chunk-WDMUDEB6",
+      "outFileName": "chunk-WDMUDEB6.js"
+    },
+    {
+      "packageName": "shared",
+      "outFileName": "shared.js",
+      "requiredVersion": "",
+      "singleton": true,
+      "strictVersion": false,
+      "version": "",
+      "dev": {
+        "entryPoint": "C:/Users/Z0058C9N/source/repos/to-do-app/main-app/projects/shared/src/public-api.ts"
+      }
+    }
+  ],
+  "exposes": [
+    {
+      "key": "./Component",
+      "outFileName": "Component.js",
+      "dev": {
+        "entryPoint": "C:/Users/Z0058C9N/source/repos/to-do-app/main-app/projects/task-form-mfe/src/app/app.ts"
+      }
+    }
+  ],
+  "buildNotificationsEndpoint": "/@angular-architects/native-federation:build-notifications"
+}

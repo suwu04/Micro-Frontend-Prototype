@@ -1,0 +1,6 @@
+
+
+{
+  "task-list-mfe": "http://localhost:3002/remoteEntry.json",
+  "task-form-mfe": "http://localhost:3001/remoteEntry.json"
+}
